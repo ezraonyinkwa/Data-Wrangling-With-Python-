@@ -1,16 +1,16 @@
 # Data-Wrangling-With-Python-
 In this Section we are going to perform data wrangling using the pandas library 
 The following are what we are going to do;
-### Wrangle function:
-### read in a csv file
-### apartments in <cityName> < $100000
-### remove outliers
-### separate columns
-### create new columns from existing
-### take care of highly null columns
-### low and high cardinality
-### Leakage
-### multicolinearity
+#### Wrangle function:
+#### read in a csv file
+#### apartments in <cityName> < $100000
+#### remove outliers
+#### separate columns
+#### create new columns from existing
+#### take care of highly null columns
+#### low and high cardinality
+#### Leakage
+#### multicolinearity
 ```python
 def wrangle(filepath):
     # Read CSV file
