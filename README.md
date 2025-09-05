@@ -1,5 +1,6 @@
 # Data-Wrangling-With-Python-
-In this Section we are going to perform data wrangling using the pandas library 
+In this Section we are going to perform data wrangling using the pandas library.
+
 The following are what we are going to do;
 #### Wrangle function:
 #### read in a csv file
