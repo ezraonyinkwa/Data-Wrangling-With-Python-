@@ -4,7 +4,7 @@ In this Section we are going to perform data wrangling using the pandas library.
 The following are what we are going to do;
 #### Wrangle function:
 #### read in a csv file
-#### apartments in <cityName> < $100000
+#### apartments in Capital Federal < $100000
 #### remove outliers
 #### separate columns
 #### create new columns from existing
@@ -17,8 +17,8 @@ def wrangle(filepath):
     # Read CSV file
     df = pd.read_csv(filepath)
     
-    # Subset data: Apartments in <cityName>, less than 100,000
-    mask_ba = df["place_with_parent_names"].str.contains(<cityName>)
+    # Subset data: Apartments in Capital Federal, less than 100,000
+    mask_ba = df["place_with_parent_names"].str.contains(Capital Federal)
     mask_apt = df["property_type"] == "apartment"
     mask_price = df["price_aprox_usd"] < 100_000
     df = df[mask_ba & mask_apt & mask_price]
